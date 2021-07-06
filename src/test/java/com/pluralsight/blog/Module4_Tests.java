@@ -354,7 +354,6 @@ public class Module4_Tests {
         assertTrue(message,
                 divElements.size() == 1);
 
-
         message = "Task 8: The Post's Body isn't displayed. It should be - " + ALL_POSTS.get(0).getBody() +
                 " - instead it is - " + divElements.get(0).html() + ".";
         assertEquals(message, ALL_POSTS.get(0).getBody(), divElements.get(0).html());
